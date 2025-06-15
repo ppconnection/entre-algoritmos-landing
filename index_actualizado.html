@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Entre algoritmos y yo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom, #1e1e2f, #0d0d0d);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 720px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+    img {
+      width: 260px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      margin-bottom: 2rem;
+    }
+    .quote {
+      font-style: italic;
+      color: #eee;
+      margin: 2rem 0;
+      font-size: 1.1rem;
+    }
+    .button {
+      background-color: #ff2d75;
+      color: white;
+      border: none;
+      padding: 0.9rem 1.6rem;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 1rem 0.5rem;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #e91e63;
+    }
+    input[type="email"] {
+      padding: 0.7rem;
+      border-radius: 5px;
+      border: none;
+      width: 80%;
+      max-width: 300px;
+      margin-bottom: 1rem;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    footer {
+      margin-top: auto;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Entre algoritmos y yo</h1>
+    <p class="tagline">Un libro que no habla de tecnología, sino de ti.</p>
+
+    <!-- Imagen con enlace a Amazon -->
+    <a href="https://www.amazon.com/dp/B0FCLC7KC1" target="_blank">
+      <img src="https://github.com/ppconnection/entre-algoritmos-landing/blob/main/portada.jpg?raw=true" alt="Portada del libro" />
+    </a>
+
+    <p class="quote">“No fue un robot quien me quitó el alma. Fui yo, cuando dejé de escucharme.”</p>
+
+    <a class="button" href="https://www.amazon.com/dp/B0FCLC7KC1" target="_blank">Adquiérelo en Amazon</a>
+
+    <!-- Formulario -->
+    <form action="https://formspree.io/f/movwwenj" method="POST">
+      <p style="margin-top: 2rem;">🎁 Descarga gratis el capítulo 3 del libro:</p>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required />
+      <br>
+      <button type="submit" class="button">Recibir por correo</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Juan C. Pupo · Todos los derechos reservados
+  </footer>
+</body>
+</html>
